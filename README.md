@@ -40,7 +40,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   https://www.minecraft.net/en-us
 
   #### Screenshot(s) van de eerste pagina (small screen): 
-  hier de naam van de pagina  
+  Home pagina  
   <img src="readme-images/minecraft-pagina1.png" width="375px" alt="home pagina">
 
   #### Screenshot(s) van de tweede pagina (small screen):
