@@ -28,4 +28,59 @@
 /****************/
 
 /* jouw code */
+body {
+	background-color:black;
+}
+
+h1 {
+	color:white;
+	font-size:1em;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+h2 {
+	color:white;
+	font-size:1em;
+	text-align:center;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+h3 {
+	color:white;
+	font-size:1em;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+h4 {
+	color:lightgreen;
+	font-size:.8em;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+p {
+	color:white;
+	font-size:1em;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+a {
+	color:white;
+	text-decoration:none;
+}
+
+footer {
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+
+button {
+	display:flex;
+	margin:1em;
+}
+
 
