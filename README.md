@@ -57,7 +57,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken na test in 2<sup>e</sup> werkgroep</summary>
 
   ### Bevindingen
-  Lijst met je bevindingen die in de test naar voren kwamen:
   Tijdens de toegankelijkheidstest 1/2 moest ik met behulp van een screen reader door mijn gekozen site navigeren en ik moet zeggen dat ik verbaasd ben
   met hoe toegankelijk de Minecraft website is. De screen reader las alle belangrijke kopjes en tekst op de site goed voor en op de juiste volgorde, 
   maar er was wel één minpunt en dat was dat de screen reader ook voorlas op wat voor element de content stond: (list, container etc).
