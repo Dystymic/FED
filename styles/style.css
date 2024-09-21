@@ -28,8 +28,18 @@
 /****************/
 
 /* jouw code */
-body {
-	background-color:black;
+header {
+	background-color:gray;
+}
+
+header img {
+	width:10em;
+	height:7em;
+}
+
+#banner {
+	width:25em;
+	height:25em;
 }
 
 h1 {
@@ -55,7 +65,7 @@ h3 {
 }
 
 h4 {
-	color:lightgreen;
+	color:darkgreen;
 	font-size:.8em;
 	margin-left:1em;
 	margin-right:1em;
@@ -81,6 +91,22 @@ footer {
 button {
 	display:flex;
 	margin:1em;
+	background-color:darkgreen;
+	color:white;
 }
+
+section:nth-child(1) {
+	background-color:gray;
+}
+
+article:nth-child(1) {
+	background-color:blue;
+}
+
+li:nth-child(1) {
+	display:flex;
+	
+}
+
 
 
