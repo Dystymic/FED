@@ -1,0 +1,217 @@
+/**************/
+/* CSS REMEDY */
+/**************/
+*, *::after, *::before {
+  box-sizing:border-box;  
+}
+
+
+
+
+
+
+/*********************/
+/* CUSTOM PROPERTIES */
+/*********************/
+:root {
+	/* startje */
+	--color-text:#FFFFFF;
+	--color-background:#171615;
+	--color-header:#262423;
+	--color-gameplay:#3D3938;
+	--color-green:#367723;
+	--color-footerlinks:#93E073;
+	--color-footer:#313131;
+}
+
+
+
+
+
+/****************/
+/* JOUW STYLING */
+/****************/
+
+/* jouw code */
+#page1 {
+	margin:0;
+	padding:0;
+	background-color:var(--color-background);
+}
+
+header {
+	min-height:4.8em;
+	background-color:var(--color-header);
+	display:flex;
+	justify-content:center;
+}
+
+header img{
+	height:1.8em;
+	width:auto;
+	margin-top:1.5em;
+}
+
+img{
+	height:5em;
+	width:auto;
+	display: flex;
+	display: block;
+}
+
+ul {
+	list-style:none;
+	position:relative;
+}
+
+
+#page1 main section:nth-of-type(1) {
+	background-image:url(images/minecraft-live.jpg);
+	background-position:center;
+	background-repeat:no-repeat;
+	background-size:cover;
+	width:100vw;
+	height:60vh;
+}
+
+#page1 main section:nth-of-type(1) article:nth-of-type(1) {
+	position: absolute;
+	background-color:var(--color-background);
+	margin:1.5em;
+	margin-top:50vh;
+	padding:2em;
+	width: 90vw;
+}
+
+#page1 main article:nth-of-type(1) h1 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main article:nth-of-type(1) p {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main article:nth-of-type(1) a {
+	color:var(--color-text);
+	font-size:1em;
+	display:flex;
+	justify-content:center;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main li:nth-of-type(1) p {
+	background-color:darkgreen;
+	color:var(--color-text);
+	padding:.5em 1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main section:nth-of-type(2) {
+	background-color:var(--color-background);
+	margin-top: 30vh;
+}
+
+#page1 main section:nth-of-type(2) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main ul:nth-of-type(2) {
+	display:flex;
+	justify-content:center;
+}
+
+#page1 main section:nth-of-type(3) {
+	background-color: var(--color-background);
+}
+
+#page1 main section:nth-of-type(3) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main section:nth-of-type(3) summary {
+	color:var(--color-text);
+	font-size:1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main section:nth-of-type(3) p {
+	color:var(--color-text);
+	font-size:1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main section:nth-of-type(4) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main section:nth-of-type(4) {
+	background-color:var(--color-header);
+}
+
+#page1 main section:nth-of-type(5) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main section:nth-of-type(5) p {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main section:nth-of-type(6) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main section:nth-of-type(6) p {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main section:nth-of-type(7) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 main section:nth-of-type(7) p {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+	font-family:'Noto Sans', sans-serif;
+}
+
+#page1 main section:nth-of-type(8) h2 {
+	text-align:center;
+	color:var(--color-text);
+	font-size:1em;
+}
+
+#page1 footer section:nth-of-type(1) {
+	display:grid;
+	grid-template-columns:1fr 1fr;
+}
+
+#page1 footer section:nth-of-type(1) h3 {
+	color:var(--color-text);
+	font-size:1em;
+}
+
+
