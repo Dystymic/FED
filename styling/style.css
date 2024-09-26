@@ -5,10 +5,15 @@
   box-sizing:border-box;  
 }
 
-
-
-
-
+.visually-hidden {
+	clip: rect(0 0 0 0);
+	clip-path: inset(50%);
+	height: 1px;
+	overflow: hidden;
+	position: absolute;
+	white-space: nowrap;
+	width: 1px;
+  }
 
 /*********************/
 /* CUSTOM PROPERTIES */
@@ -17,10 +22,12 @@
 	/* startje */
 	--color-text:#FFFFFF;
 	--color-background:#171615;
+	--color-background2:#000000;
 	--color-header:#262423;
 	--color-gameplay:#3D3938;
-	--color-green:#367723;
-	--color-footerlinks:#93E073;
+	--color-primary:#367723;
+	--color-textlink:#6cc349;
+	--color-footerlink:#93E073;
 	--color-footer:#313131;
 }
 
@@ -57,16 +64,21 @@ header {
 	background-color:var(--color-header);
 	display:flex;
 	justify-content:center;
+	position:sticky;
+	align-items:center;
+	top:0;
+	z-index:10;
+	opacity:95%;
+	flex-wrap:wrap;
 }
 
 header img{
-	height:1.8em;
+	height:2em;
 	width:auto;
-	margin-top:1.5em;
 }
 
 img{
-	height:5em;
+	height:3em;
 	width:auto;
 }
 
@@ -75,8 +87,14 @@ ul {
 	position:relative;
 }
 
+a {
+	text-decoration:none;
+}
 
 #page1 main section:nth-of-type(1) {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
 	background-image:url("../images/minecraft-live.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
@@ -85,15 +103,21 @@ ul {
 	height:60vh;
 }
 
+#page1 main section:nth-of-type(1) {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
 #page1 main section:nth-of-type(1) article:nth-of-type(1) {
 	position:absolute;
 	background-color:var(--color-background);
-	margin:1.5em;
-	margin-top:50vh;
+	margin-top:100vh;
 	width:90vw;
 }
 
-#page1 main article:nth-of-type(1) h1 {
+#page1 main article:nth-of-type(1) h2 {
 	text-align:center;
 	color:var(--color-text);
 	font-size:1.5em;
@@ -117,45 +141,71 @@ ul {
 	font-family:noto;
 }
 
-#page1 main li:nth-of-type(1) p {
-	background-color:darkgreen;
+#page1 main section:nth-of-type(1) li:nth-of-type(1) p {
+	background-color:var(--color-primary);
 	color:var(--color-text);
-	padding:.5em 1em;
+	padding:.5em;
+	margin:0;
+	margin-left:2em;
+	margin-right:5em;
 	font-family:noto;
 }
 
 #page1 main section:nth-of-type(2) {
 	background-color:var(--color-background);
-	margin-top:30vh;
+	margin-top:50vh;
+	display: flex;
+	flex-direction:column;
+	justify-content:center;
+	align-items:center;
 }
 
 #page1 main section:nth-of-type(2) h2 {
 	text-align:center;
 	color:var(--color-text);
-	font-size:1em;
-	font-family:mc7;
+	font-size:1.8em;
+	font-family:mc10;
 }
 
 #page1 main ul:nth-of-type(2) {
-	display:flex;
-	justify-content:center;
+	display:grid;
+	grid-template-columns:repeat(4, 1fr);
+	grid-template-rows:1fr;
+	margin-top:3em;
+	padding-left:3em;
+	padding-right:3em;
 }
 
-#page1 main section:nth-of-type(3) {
-	background-color:var(--color-background);
+#page1 main section:nth-of-type(2) {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+#page1 main section:nth-of-type(2) img {
+	height:20em;
+	margin-bottom:2em;
+	margin-right:2em;
 }
 
 #page1 main section:nth-of-type(3) h2 {
 	text-align:center;
 	color:var(--color-text);
-	font-size:1em;
-	font-family:mc7;
+	font-size:2em;
+	font-family:mc10;
+}
+
+#page1 main section:nth-of-type(3) details {
+	background-color:var(--color-header);
+	margin-bottom:1em;
 }
 
 #page1 main section:nth-of-type(3) summary {
 	color:var(--color-text);
 	font-size:1em;
-	font-family:noto;
+	font-family:mc7;
+	margin:2em;
 }
 
 #page1 main section:nth-of-type(3) p {
@@ -164,15 +214,41 @@ ul {
 	font-family:noto;
 }
 
+#page1 main section:nth-of-type(4) {
+	background-color:var(--color-header);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
 #page1 main section:nth-of-type(4) h2 {
 	text-align:center;
 	color:var(--color-text);
-	font-size:1em;
-	font-family:mc7;
+	font-size:2em;
+	font-family:mc10;
+	padding-top:2em;
 }
 
-#page1 main section:nth-of-type(4) {
-	background-color:var(--color-header);
+#page1 main section:nth-of-type(4) a {
+	color:var(--color-textlink);
+	font-size:1.3em;
+	display:flex;
+	justify-content:center;
+	font-family:noto;
+}
+
+#page1 main section:nth-of-type(4) img {
+	height:15em;
+	margin-bottom:2em;
+	margin-right:2em;
+}
+
+#page1 main section:nth-of-type(5) {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
 }
 
 #page1 main section:nth-of-type(5) h2 {
@@ -187,12 +263,26 @@ ul {
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
+	padding-left:2em;
+	padding-right:2em;
+}
+
+#page1 main section:nth-of-type(6) {
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+}
+
+#page1 main section:nth-of-type(6) img {
+	height:14em;
+	margin-bottom:2em;
 }
 
 #page1 main section:nth-of-type(6) h2 {
 	text-align:center;
 	color:var(--color-text);
-	font-size:1em;
+	font-size:2em;
 	font-family:mc10;
 }
 
@@ -201,12 +291,18 @@ ul {
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
+	margin-left:3em;
+	margin-right:3em;
+}
+
+#page1 main section:nth-of-type(7) {
+	background-color:var(--color-background2);
 }
 
 #page1 main section:nth-of-type(7) h2 {
 	text-align:center;
 	color:var(--color-text);
-	font-size:1em;
+	font-size:2em;
 	font-family:mc10;
 }
 
@@ -215,6 +311,23 @@ ul {
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
+	margin-left:1em;
+	margin-right:1em;
+}
+
+#page1 main section:nth-of-type(7) a {
+	color:var(--color-textlink);
+	font-size:1.3em;
+	display:flex;
+	justify-content:center;
+	font-family:noto;
+	margin-top:3em;
+	margin-bottom:3em;
+}
+
+#page1 main section:nth-of-type(7) img {
+	height:20em;
+	margin-bottom:2em;
 }
 
 #page1 main section:nth-of-type(8) h2 {
@@ -224,16 +337,28 @@ ul {
 	font-family:noto;
 }
 
-#page1 footer section:nth-of-type(1) {
+#page1 footer section:nth-of-type(1)  {
 	display:grid;
-	grid-template-columns:1fr 1fr;
-	font-family:noto;
+	grid-template-columns:repeat(2, 1fr);
+	grid-template-rows:1fr;
+	text-align:left;
+	margin-right:3em;
 }
 
-#page1 footer section:nth-of-type(1) h3 {
+#page1 footer section:nth-of-type(1) p {
 	color:var(--color-text);
-	font-size:1em;
 	font-family:noto;
+	font-size:1.2em;
+	margin-bottom:.5em;
 }
+
+#page1 footer section:nth-of-type(1) a {
+	color:var(--color-footerlink);
+	font-family:noto;
+	font-size:.8em;
+	margin-bottom:.5em;
+}
+
+
 
 
