@@ -5,6 +5,7 @@
   box-sizing:border-box;  
 }
 
+/* Bron: Ivo & Thomas */
 .visually-hidden {
 	clip: rect(0 0 0 0);
 	clip-path: inset(50%);
@@ -26,9 +27,13 @@
 	--color-header:#262423;
 	--color-gameplay:#3D3938;
 	--color-primary:#367723;
+	--color-bordertop1:#52A535;
+	--color-borderbottom1:#2A641C;
+	--color-bordertopactive:#51504F;
 	--color-textlink:#6cc349;
 	--color-footerlink:#93E073;
 	--color-footer:#313131;
+	--color-copyright:#D1CFCE;
 }
 
 @font-face {
@@ -91,19 +96,31 @@ a {
 	text-decoration:none;
 }
 
+/* Bron: Positioneren */
+#vollebreedte {
+	position:relative;
+}
+
+#vollebreedte h2 {
+	position:absolute;
+	left:0;
+	right:0;
+	bottom:2em;
+	margin:0;
+	padding:.5em;
+	background-color:var(--color-header);
+	color:var(--color-text);
+	opacity:80%;
+}
+/*  */
+
 #page1 main section:nth-of-type(1) {
-	display: flex;
-	flex-direction: column;
-	justify-content: center;
 	background-image:url("../images/minecraft-live.jpg");
 	background-position:center;
 	background-repeat:no-repeat;
 	background-size:cover;
 	width:100vw;
 	height:60vh;
-}
-
-#page1 main section:nth-of-type(1) {
 	display:flex;
 	justify-content:center;
 	align-items:center;
@@ -117,14 +134,14 @@ a {
 	width:90vw;
 }
 
-#page1 main article:nth-of-type(1) h2 {
+#page1 main section:nth-of-type(1) article:nth-of-type(1) h2 {
 	text-align:center;
 	color:var(--color-text);
 	font-size:1.5em;
 	font-family:mc7;
 }
 
-#page1 main article:nth-of-type(1) p {
+#page1 main section:nth-of-type(1) article:nth-of-type(1) p {
 	text-align:center;
 	color:var(--color-text);
 	font-size:1em;
@@ -133,7 +150,7 @@ a {
 	margin-right:1em;
 }
 
-#page1 main article:nth-of-type(1) a {
+#page1 main section:nth-of-type(1) article:nth-of-type(1) a {
 	color:var(--color-text);
 	font-size:1em;
 	display:flex;
@@ -147,8 +164,10 @@ a {
 	padding:.5em;
 	margin:0;
 	margin-left:2em;
-	margin-right:5em;
+	margin-right:4em;
 	font-family:noto;
+	border-top:.4em solid var(--color-bordertop1);
+	border-bottom:.4em solid var(--color-borderbottom1);
 }
 
 #page1 main section:nth-of-type(2) {
@@ -170,7 +189,6 @@ a {
 #page1 main ul:nth-of-type(2) {
 	display:grid;
 	grid-template-columns:repeat(4, 1fr);
-	grid-template-rows:1fr;
 	margin-top:3em;
 	padding-left:3em;
 	padding-right:3em;
@@ -189,23 +207,37 @@ a {
 	margin-right:2em;
 }
 
+#page1 main section:nth-of-type(3) {
+	background-color:var(--color-background);
+	margin-bottom:10em;
+}
+
 #page1 main section:nth-of-type(3) h2 {
 	text-align:center;
 	color:var(--color-text);
 	font-size:2em;
 	font-family:mc10;
+	padding-top:5em;
 }
 
 #page1 main section:nth-of-type(3) details {
-	background-color:var(--color-header);
-	margin-bottom:1em;
+	margin-left:2em;
+	margin-right:2em;
+	border-top:.2em solid var(--color-header);
+	border-right:.2em solid var(--color-header);
+	border-bottom:.2em solid var(--color-background2);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	padding:2em;
 }
 
 #page1 main section:nth-of-type(3) summary {
 	color:var(--color-text);
 	font-size:1em;
 	font-family:mc7;
-	margin:2em;
+	text-align:left;
 }
 
 #page1 main section:nth-of-type(3) p {
@@ -232,15 +264,22 @@ a {
 
 #page1 main section:nth-of-type(4) a {
 	color:var(--color-textlink);
-	font-size:1.3em;
+	font-size:1.2em;
 	display:flex;
 	justify-content:center;
 	font-family:noto;
+	padding-bottom:2em;
+}
+
+#page1 main section:nth-of-type(4) ul:nth-of-type(1) h2 {
+	font-size:1.2em;
+	font-family:mc7;
+	padding-right:5em;
+	text-align:left;
 }
 
 #page1 main section:nth-of-type(4) img {
-	height:15em;
-	margin-bottom:2em;
+	height:14em;
 	margin-right:2em;
 }
 
@@ -251,20 +290,49 @@ a {
 	flex-direction:column;
 }
 
-#page1 main section:nth-of-type(5) h2 {
+#page1 main section:nth-of-type(5) article:nth-of-type(1) {
+	background-color:var(--color-background);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
+	margin:2em;
+	border-top:.2em solid var(--color-background2);
+	border-right:.2em solid var(--color-background2);
+	border-bottom:.2em solid var(--color-header);
+	border-left:.2em solid var(--color-header);
+	margin-bottom:6em;
+}
+
+#page1 main section:nth-of-type(5) article:nth-of-type(1) img {
+	margin:1em;
+	height:5em;
+}
+
+#page1 main section:nth-of-type(5) article:nth-of-type(1) h2 {
 	text-align:center;
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
 }
 
-#page1 main section:nth-of-type(5) p {
+#page1 main section:nth-of-type(5) article:nth-of-type(1) p {
 	text-align:center;
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
 	padding-left:2em;
 	padding-right:2em;
+}
+
+#page1 main section:nth-of-type(5) li:nth-of-type(1) p {
+	background-color:var(--color-background);
+	color:var(--color-text);
+	padding:.5em;
+	margin:0;
+	margin-right:2em;
+	font-family:noto;
+	border:.1em solid var(--color-text);
 }
 
 #page1 main section:nth-of-type(6) {
@@ -276,7 +344,7 @@ a {
 
 #page1 main section:nth-of-type(6) img {
 	height:14em;
-	margin-bottom:2em;
+	margin-bottom:1em;
 }
 
 #page1 main section:nth-of-type(6) h2 {
@@ -295,8 +363,24 @@ a {
 	margin-right:3em;
 }
 
+#page1 main section:nth-of-type(6) li:nth-of-type(1) p {
+	background-color:var(--color-primary);
+	color:var(--color-text);
+	padding:.5em;
+	margin:0;
+	margin-left:2em;
+	margin-right:4em;
+	font-family:noto;
+	border-top:.4em solid var(--color-bordertop1);
+	border-bottom:.4em solid var(--color-borderbottom1);
+}
+
 #page1 main section:nth-of-type(7) {
 	background-color:var(--color-background2);
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	flex-direction:column;
 }
 
 #page1 main section:nth-of-type(7) h2 {
@@ -304,6 +388,7 @@ a {
 	color:var(--color-text);
 	font-size:2em;
 	font-family:mc10;
+	padding-top:2em;
 }
 
 #page1 main section:nth-of-type(7) p {
@@ -321,13 +406,24 @@ a {
 	display:flex;
 	justify-content:center;
 	font-family:noto;
-	margin-top:3em;
+	margin-top:1em;
 	margin-bottom:3em;
 }
 
+#page1 main section:nth-of-type(7) ul:nth-of-type(1) h2 {
+	font-size:1.2em;
+	font-family:noto;
+	padding-right:5em;
+	text-align:left;
+}
+
 #page1 main section:nth-of-type(7) img {
-	height:20em;
+	height:18em;
 	margin-bottom:2em;
+}
+
+#page1 main section:nth-of-type(8) {
+	background-color:var(--color-background2);
 }
 
 #page1 main section:nth-of-type(8) h2 {
@@ -335,9 +431,10 @@ a {
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
+	padding-top:2em;
 }
 
-#page1 footer section:nth-of-type(1)  {
+#page1 footer section:nth-of-type(1) {
 	display:grid;
 	grid-template-columns:repeat(2, 1fr);
 	grid-template-rows:1fr;
@@ -357,6 +454,83 @@ a {
 	font-family:noto;
 	font-size:.8em;
 	margin-bottom:.5em;
+}
+
+#page1 footer section:nth-of-type(2) {
+	margin-bottom:5em;
+}
+
+/* Bron: ChatGPT, Prompt: Hoe krijg ik één plaatje boven en twee naast elkaar beneden? */
+#page1 footer section:nth-of-type(2) ul:nth-of-type(1) {
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:auto auto;
+    grid-gap:1em;
+	padding-left:3em;
+	padding-right:3em;
+}
+
+#page1 footer section:nth-of-type(2) ul:nth-of-type(1) li:nth-child(1) {
+    grid-column:span 2;
+}
+
+#page1 footer section:nth-of-type(2) ul:nth-of-type(1) li:nth-child(2),
+#page1 footer section:nth-of-type(2) ul:nth-of-type(1) li:nth-child(3) {
+    
+    grid-column:span 1;
+}
+/* */
+
+#page1 footer section:nth-of-type(2) img {
+	height:6em;
+}
+
+#page1 footer section:nth-of-type(2) ul:nth-of-type(2) {
+    display:grid;
+    grid-template-columns:repeat(2, 1fr);
+    grid-template-rows:auto auto;
+	padding-left:3em;
+	padding-right:3em;
+}
+
+#page1 footer section:nth-of-type(2) ul:nth-of-type(2) li:nth-child(1) {
+    grid-column:span 2;
+}
+
+#page1 footer section:nth-of-type(2) ul:nth-of-type(2) li:nth-child(2),
+#page1 footer section:nth-of-type(2) ul:nth-of-type(2) li:nth-child(3) {
+    
+    grid-column:span 1;
+}
+
+#page1 footer section:nth-of-type(2) a {
+	color:var(--color-footerlink);
+	font-family:noto;
+	font-size:.6em;
+}
+
+#page1 footer section:nth-of-type(2) p {
+	color:var(--color-copyright);
+	font-family:noto;
+	font-size:.7em
+}
+
+#page1 footer section:nth-of-type(3) a {
+	color:var(--color-text);
+	font-family:noto;
+	font-size:.7em;
+}
+
+#page1 footer section:nth-of-type(3) {
+	background-color:var(--color-footer);
+	margin:0;
+	padding:1em;
+}
+
+#page1 footer section:nth-of-type(3) ul:nth-of-type(1) {
+	display:grid;
+	grid-template-columns:repeat(3, 1fr);
+	margin-top:3em;
 }
 
 
