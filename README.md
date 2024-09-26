@@ -91,7 +91,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  Ik kreeg te horen dat ik goed op weg was, maar ik vind het wel nog lastig om een nette html structuur aan te houden. Ik kreeg als suggestie om meer met   
+  sections en articles te werken zodat mijn html structuur wat netter word.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -106,8 +107,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - punt 1 Details en summary tags gebruiken voor dropdown menu's
+  - punt 2 Surface plane suggestie: De live wallpaper die op de tweede pagina staat interactief maken door bepaalde elementen op de wallpaper klikbaar te maken
   - nog een punt
   - ...
 
@@ -124,7 +125,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Stand van zaken
   hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-
+  
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -139,8 +140,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - punt 1 Goed nadenken over wat mijn 5 surface plane elementen worden
+  - punt 2 Readme optijd aanvullen voordat ik alles vergeten ben
   - nog een punt
 - ...
 
