@@ -142,7 +142,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Goed nadenken over wat mijn 5 surface plane elementen worden
   - punt 2 Readme optijd aanvullen voordat ik alles vergeten ben
-  - nog een punt
+  - nog een punt Suggestie voor surface plane: Reduce Motion
 - ...
 
 </details>
