@@ -181,14 +181,14 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Hoe maak je een hamburger menu? | ...                | ...          | ...              |
+  | Hoe maak je een hamburger menu? | Hoe uitgebreid moet de README uitgetypt zijn? | Waarom heeft dit plaatje een grijsvlak? | ...              |
 
 
   ### Verslag van meeting
   hier na afloop snel de uitkomsten van de meeting vastleggen
 
-  - punt 1
-  - punt 2
+  - punt 1 Website hoeft niet 1 op 1 te zijn met de originele website, werk alleen uit wat ik nuttig vind
+  - punt 2 Surface plane hoeft niet al te ingewikkelde dingen te zijn, het kunnen ook kleine verbeteringen zijn
   - nog een punt
   - ...
 
