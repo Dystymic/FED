@@ -189,9 +189,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
+  <img src="readme-images/voortgang1.png" width="375px" alt="screenshot van sections">
   Ik kreeg te horen dat ik goed op weg was, maar ik vind het wel nog lastig om een nette html structuur aan te houden. Ik kreeg als suggestie om meer met   
   sections en articles te werken zodat mijn html structuur wat netter word.
-  <img src="readme-images/voortgang1.png" width="375px" alt="screenshot van sections">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
