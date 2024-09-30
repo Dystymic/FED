@@ -331,9 +331,11 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1: foto's van de website (https://www.minecraft.net/en-us)
-  2. bron 2: Logo (https://www.zenbusiness.com/blog/minecraft-logo/)
-  3. bron 3: Visually hidden class (Thomas en Ivo)
+  2. bron 2: logo (https://www.zenbusiness.com/blog/minecraft-logo/)
+  3. bron 3: visually hidden class (Thomas en Ivo)
   4. bron 4: vollebreedte class (positioneren codepen)
   5. bron 5: specifieke gebruik van grid (ChatGPT, Prompt: Hoe krijg ik één plaatje boven en twee naast elkaar beneden?)
+  6. bron 6: social media iconen (https://www.freepik.com/free-photos-vectors/social-media-icons-2024)
+  7. bron 7: search icon (https://thenounproject.com/browse/icons/term/pixel-search/)
 
 </details>
