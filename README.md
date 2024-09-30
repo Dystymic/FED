@@ -222,7 +222,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Dit voortgangsgesprek ging niet zo goed als de vorige. Ik was niet zo goed op weg omdat ik de afgelopen paar dagen weinig progressie heb kunnen maken              onderandere omdat ik tegen bepaalde dingen aanliep. Ook liep ik achter met de README dus dat was ook niet al te best. Maar ondanks dat ik aardig wat achterliep    had ik een aantal vragen kunnen voorbereiden.
   
 
   ### Agenda voor meeting
@@ -232,7 +232,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Wat is een goede toevoeging om te maken als het gaat om surface plane?            | Telt light en dark mode ook als een surface plane toevoeging?                | Waar kan ik meer voorbeelden van surface plane toepassingen vinden?          | Hoe kan ik ervoor zorgen dat mijn h1 onzichtbaar is zoals mijn gekozen website?              |
 
 
   ### Verslag van meeting
@@ -269,7 +269,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik kreeg te horen dat mijn site op de originele site begon te lijken en dat ik goed op weg was. Deze keer was ik goed voorbereid en had ik redelijk veel vragen    kunnen verzinnen om te stellen, maar wat ik de belangrijkste vraag vond was hoe je het best een hamburger menu kon maken. Ik had er de dag er voor een paar uur    meelopen stoeien en het wilde maar niet lukken.
 
 
   ### Agenda voor meeting
@@ -287,8 +287,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Website hoeft niet 1 op 1 te zijn met de originele website, werk alleen uit wat ik nuttig vind
   - punt 2 Surface plane hoeft niet al te ingewikkelde dingen te zijn, het kunnen ook kleine verbeteringen zijn
-  - nog een punt
-  - ...
+  - punt 3 Een div mag gebruikt worden als het echt niet anders kan
+  - punt 4 Het is me gelukt om een werkend hamburger menu te krijgen
 
 </details>
 
