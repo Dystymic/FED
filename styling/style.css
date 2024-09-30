@@ -23,7 +23,10 @@
 /*********************/
 :root {
 	/* startje */
+
+	/* standaard stijl */
 	--color-text:#FFFFFF;
+	--color-text-both:#FFFFFF;
 	--color-background:#171615;
 	--color-background2:#000000;
 	--color-header:#262423;
@@ -31,13 +34,28 @@
 	--color-primary:#367723;
 	--color-bordertop1:#52A535;
 	--color-borderbottom1:#2A641C;
-	--color-bordertopactive:#51504F;
 	--color-textlink:#6cc349;
 	--color-footer:#313131;
 	--color-copyright:#D1CFCE;
 	--color-friends1:#8F6448;
 	--color-friends2:#6345BD;
 	--color-friends3:#006CEF;
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		--color-text:#000000;
+		--color-background:#ffffff;
+		--color-background2:lightgray;
+		--color-gameplay:lightgray;
+		--color-header:lightgray;
+		--color-primary:#52A535;
+		--color-bordertop1:#6cc349;
+		--color-borderbottom1:#367723;
+		--color-textlink:#2a641c;
+		--color-footer:lightgray;
+		--color-copyright:#000000;
+	}
 }
 
 @font-face {
@@ -62,6 +80,8 @@
 /****************/
 
 /* jouw code */
+
+/* standaard stijl */
 #page1 {
 	background-color:var(--color-background);
 }
@@ -102,7 +122,7 @@ header {
 }
 
 header ul {
-	background-color:var(--color-background);
+	background-color:var(--color-header);
 	transform: translate(-200%, 0%);
 	transition: 1s ease-in-out;
 	position:absolute;
@@ -179,12 +199,12 @@ button {
 
 .button-klik {
 	transform:translateY(5px);
-	transition:transform 0.2 ease;
+	transition:transform 0.2s ease;
 }
 
 video {
 	width:20em;
-	padding-bottom:1em;
+	padding-bottom:3em;
 }
 
 /* Pagina 1 Styling */
@@ -227,7 +247,6 @@ video {
 	font-family:noto;
 	padding-left:1em;
 	padding-right:1em;
-	padding-bottom:2em;
 }
 
 #page1 main div:nth-of-type(1) article:nth-of-type(1) a {
@@ -240,17 +259,33 @@ video {
 	font-weight:bold;
 }
 
-#page1 main div:nth-of-type(1) li:nth-of-type(1) p {
+li.knop {
 	background-color:var(--color-primary);
-	color:var(--color-text);
-	padding:.5em;
-	margin:0;
 	margin-left:6em;
 	margin-right:6em;
-	font-family:noto;
-	border-top:.4em solid var(--color-bordertop1);
-	border-bottom:.4em solid var(--color-borderbottom1);
+	border-top:.3em solid var(--color-bordertop1);
+	border-bottom:.3em solid var(--color-borderbottom1);
+	cursor:pointer;
+	display:flex;
+	justify-content:center;
+	align-items:center;
+	padding:.2em;
+	margin-top:2em;
 	margin-bottom:2em;
+}
+
+li.knop:hover {
+	background-color:var(--color-borderbottom1);
+}
+
+li.knop:active {
+	transform: translateY(2px);
+}
+
+li.knop p {
+	margin:0;
+	text-align:center;
+	font-family:noto;
 	font-weight:bold;
 }
 
@@ -324,25 +359,10 @@ video {
 	padding-bottom:2em;
 }
 
-#page1 main section:nth-of-type(2) li:nth-of-type(1) p {
-	background-color:var(--color-primary);
-	color:var(--color-text);
-	padding:.5em;
-	margin:0;
-	margin-left:6em;
-	margin-right:6em;
-	font-family:noto;
-	border-top:.4em solid var(--color-bordertop1);
-	border-bottom:.4em solid var(--color-borderbottom1);
-	margin-bottom:2em;
-	font-weight:bold;
-}
-
 #page1 main section:nth-of-type(2) p {
 	color:var(--color-text);
 	font-size:1em;
 	font-family:noto;
-	padding-bottom:1em;
 }
 
 #page1 main section:nth-of-type(3) {
@@ -464,18 +484,6 @@ video {
 	font-family:noto;
 	padding-left:3em;
 	padding-right:3em;
-	padding-bottom:2em;
-}
-
-#page1 main section:nth-of-type(4) li:nth-of-type(1) p {
-	background-color:var(--color-primary);
-	color:var(--color-text);
-	padding:.5em;
-	font-family:noto;
-	border-top:.4em solid var(--color-bordertop1);
-	border-bottom:.4em solid var(--color-borderbottom1);
-	margin-bottom:6em;
-	font-weight:bold;
 }
 
 #page1 main section:nth-of-type(5) {
@@ -775,6 +783,7 @@ footer div:nth-of-type(3) ul:nth-of-type(1) {
 	height:24em;
 	padding-left:2em;
 	padding-right:2em;
+	padding-bottom:2em;
 }
 
 #page2 main section:nth-of-type(5) {
