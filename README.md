@@ -191,7 +191,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   ### Stand van zaken
   Ik kreeg te horen dat ik goed op weg was, maar ik vind het wel nog lastig om een nette html structuur aan te houden. Ik kreeg als suggestie om meer met   
   sections en articles te werken zodat mijn html structuur wat netter word.
-  <img src="readme-images/voortgang1.png" width="375px" alt="screenshot van sections"
+  <img src="readme-images/voortgang1.png" width="375px" alt="screenshot van sections">
 
   ### Agenda voor meeting
   samen met je groepje opstellen
