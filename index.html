@@ -13,9 +13,11 @@
 <body id="page1">
 	<header>
 		<nav>
-			<button><img src="images/minecraft-logo.png" alt="Hamburger menu">
-			</button>
+			<button id="hamburger"><img src="images/hamburger.png" alt="Icon to open Hamburger menu"></button>
+			<a href="index.html"><img src="images/minecraft-logo.png" alt="Minecraft Logo"></a>
+			<a href="#"><img src="images/search.png" alt="Search Icon"></a>
 			<ul>
+				<li><button id="afsluiten"><img src="images/kruisje.png" alt="Cross to close the hamburger menu"></button></li>
 				<li><a href="index.html"><img src="images/minecraft-logo.png" alt="Minecraft Logo"></a></li>
 				<li><a href="#">GAMES</a></li>
 				<li><a href="#">SHOP</a></li>
@@ -23,15 +25,14 @@
 				<li><a href="#">SUPPORT</a></li>
 				<li><a href="#">ACCOUNT</a></li>
 			</ul>
-			<a href="index.html"><img src="images/minecraft-logo.png" alt="Minecraft Logo"></a>
 		</nav>
 	</header>
 
 	<main>
-		<!-- Originele website heeft geen h1 -->
+		<!-- Originele website heeft geen zichtbare h1 -->
 		<h1 class="visually-hidden">Minecraft Homepage</h1>
 		<!-- Section 1 -->
-		<section>
+		<div>
 			<article>
 				<h2>Tune into Minecraft LIVE!</h2>
 				<p>Watch a new take on Minecraft LIVE on September 28 at 1PM EDT. 
@@ -49,7 +50,7 @@
 					<li><a href="#"><img src="images/tricky-trials.jpg" alt="Image"></a></li>
 				</ul>
 			</article>
-		</section>
+		</div>
 		<!-- Section 2 -->
 		<section>
 			<h2>DISCOVER OUR GAMES</h2>
@@ -65,6 +66,9 @@
 			<h2>GAMEPLAY TRAILERS</h2>
 			<details>
 				<summary>Minecraft</summary>
+				<video controls>
+					<source src="videos/minecraft.mp4" type="video/mp4">
+				</video>
 				<p>Explore your own unique worlds, survive the night, and create anything you can imagine!
 					Watch the sample video of Minecraft gameplay above, or select "watch the trailer" to see the full video on YouTube.</p>
 				<ul>	
@@ -75,6 +79,9 @@
 			</details>
 			<details>
 				<summary>Minecraft Dungeons</summary>
+				<video controls>
+					<source src="videos/minecraft-dungeons.mp4" type="video/mp4">
+				</video>
 				<p>Discover an action-adventure game inspired by classic dungeon crawlers
 					Watch the sample video of Minecraft Dungeons gameplay above, 
 					or select "watch the trailer" to see the full video on YouTube.</p>
@@ -86,6 +93,9 @@
 			</details>
 			<details>
 				<summary>Minecraft Legends</summary>
+				<video controls>
+					<source src="videos/minecraft-legends.mp4" type="video/mp4">
+				</video>
 				<p>Lead your allies in heroic battles in the action-strategy game Minecraft Legends.
 					Watch the sample video of Minecraft Legends gameplay above, 
 					or select "watch the trailer" to see the full video on YouTube.</p>
@@ -97,6 +107,9 @@
 			</details>
 			<details>
 				<summary>Minecraft Education</summary>
+				<video controls>
+					<source src="videos/minecraft-education.mp4" type="video/mp4">
+				</video>
 				<p>A game-based learning platform supporting thousands of educators in over 100 countries.
 					Watch the sample video of Minecraft Education gameplay above, 
 					or select "watch the trailer" to see the full video on YouTube.</p>
@@ -155,7 +168,7 @@
 			</ul>
 		</section>
 		<!-- Section 5 -->
-		<section>
+		<div>
 			<article>
 				<img src="images/launcher-creeper.jpg" alt="Creeper face">
 				<h2>Need to redownload?</h2>
@@ -166,7 +179,7 @@
 					</li>
 				</ul>
 			</article>
-		</section>
+		</div>
 		<!-- Section 6 -->
 		<section>
 			<img src="images/minecraft-marketplace-add-ons.jpg" alt="Minecraft Marketplace Add-ons">
@@ -185,28 +198,25 @@
 				Customize your device with our favorite Minecraft wallpapers, social banners, and more!</p>
 			<a href="#">See all collectibles</a>
 			<ul>
-				<li class="vollebreedte">
-					<h2>15-year Anniversary</h2>
-					<img src="images/15-year-anniversary.jpg" alt="15-year Anniversary">
-				</li>
+				<li><img src="images/15-year-anniversary.jpg" alt="15-year Anniversary"></li>
 			</ul>	
 		</section>
 		<!-- Section 8 -->
 		<section>
 			<h2>FOLLOW MINECRAFT</h2>
 			<ul>
-				<li><a href="#"><img src="images/" alt="YouTube"></a></li>
-				<li><a href="#"><img src="images/" alt="Instagram"></a></li>	
-				<li><a href="#"><img src="images/" alt="Facebook"></a></li>
-				<li><a href="#"><img src="images/" alt="X"></a></li>
-				<li><a href="#"><img src="images/" alt="Reddit"></a></li>
+				<li><a href="#"><img src="images/youtube.png" alt="YouTube"></a></li>
+				<li><a href="#"><img src="images/instagram.png" alt="Instagram"></a></li>	
+				<li><a href="#"><img src="images/facebook.png" alt="Facebook"></a></li>
+				<li><a href="#"><img src="images/x.png" alt="X"></a></li>
+				<li><a href="#"><img src="images/reddit.png" alt="Reddit"></a></li>
 			</ul>
 		</section>
 	</main>
 
 	<footer>
 		<!-- Section 1 -->
-		<section>
+		<div>
 			<ul>
 				<li><p>Games</p></li>
 				<li><a href="about.html">Minecraft</a></li>
@@ -234,9 +244,9 @@
 				<li><a href="#">Profile</a></li>
 				<li><a href="#">Redeem</a></li>
 			</ul>
-		</section>
+		</div>
 		<!-- Section 2 -->
-		<section>
+		<div>
 			<ul>
 				<li><img src="images/esrb.png" alt="ESRB Rating"></li>
 				<li><img src="images/mojang.png" alt="Mojang Logo"></li>
@@ -247,9 +257,9 @@
 				<li><a href="#">Minecraft Usage Guidelines</a></li>
 				<li><a href="#">Manage Consent</a></li>
 			</ul>
-		</section>
+		</div>
 		<!-- Section 3 -->
-		<section>
+		<div>
 			<ul>
 				<li><a href="#">Privacy and Cookies</a></li>
 				<li><a href="#">Terms of use</a></li>	
@@ -257,7 +267,7 @@
 				<li><a href="#">About our ads</a></li>
 				<li><a href="#">© 2024 Microsoft</a></li>
 			</ul>
-		</section>
+		</div>
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
