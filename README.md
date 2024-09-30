@@ -189,9 +189,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
-  Ik kreeg te horen dat ik goed op weg was, maar ik vind het wel nog lastig om een nette html structuur aan te houden. Ik kreeg als suggestie om meer met   
-  sections en articles te werken zodat mijn html structuur wat netter word.
+  <img src="readme-images/voortgang1.png" width="375px" alt="screenshot van sections">
+  Ik kreeg te horen dat ik over het algemeen goed op weg was, maar ik vond het wel nog lastig om een nette html structuur aan te houden. Ik kreeg als suggestie om   meer met sections en articles te werken zodat mijn html structuur wat netter word.
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -200,7 +199,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe maak je een dropdown menu?            | Is mijn html structuur overzichtelijk?                | Hoeveel classes mag je gebruiken?          | Wat is een goed voorbeeld van Surface Plane?              |
 
 
   ### Verslag van meeting
@@ -208,7 +207,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Details en summary tags gebruiken voor dropdown menu's
   - punt 2 Surface plane suggestie: De live wallpaper die op de tweede pagina staat interactief maken door bepaalde elementen op de wallpaper klikbaar te maken
-  - nog een punt
+  - punt 3 Niet meer dan één footer hebben
   - ...
 
 </details>
@@ -223,7 +222,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 2<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Dit voortgangsgesprek ging niet zo goed als de vorige. Ik was niet zo goed op weg omdat ik de afgelopen paar dagen weinig progressie heb kunnen maken              onderandere omdat ik tegen bepaalde dingen aanliep. Ook liep ik achter met de README dus dat was ook niet al te best. Maar ondanks dat ik aardig wat achterliep    had ik een aantal vragen kunnen voorbereiden.
   
 
   ### Agenda voor meeting
@@ -233,7 +232,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Wat is een goede toevoeging om te maken als het gaat om surface plane?            | Telt light en dark mode ook als een surface plane toevoeging?                | Waar kan ik meer voorbeelden van surface plane toepassingen terugvinden?          | Hoe kan ik ervoor zorgen dat mijn h1 onzichtbaar is zoals mijn gekozen website?              |
 
 
   ### Verslag van meeting
@@ -241,7 +240,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Goed nadenken over wat mijn 5 surface plane elementen worden
   - punt 2 Readme optijd aanvullen voordat ik alles vergeten ben
-  - nog een punt Suggestie voor surface plane: Reduce Motion
+  - punt 3 Suggestie voor surface plane: Reduce Motion
 - ...
 
 </details>
@@ -270,7 +269,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
+  Ik kreeg te horen dat mijn site op de originele site begon te lijken en dat ik goed op weg was. Deze keer was ik goed voorbereid en had ik redelijk veel vragen    kunnen verzinnen om te stellen, maar wat ik de belangrijkste vraag vond was hoe je het best een hamburger menu kon maken. Ik had er de dag er voor een paar uur    meelopen stoeien en het wilde maar niet lukken.
 
 
   ### Agenda voor meeting
@@ -280,7 +279,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Hoe maak je een hamburger menu? | Hoe uitgebreid moet de README uitgetypt zijn? | Waarom heeft dit plaatje een grijsvlak? | ...              |
+  | Hoe maak je een hamburger menu? | Hoe uitgebreid moet de README uitgetypt zijn? | Waarom heeft dit plaatje een grijsvlak? | Mag je een div gebruiken als een section geen h2 heeft?              |
 
 
   ### Verslag van meeting
@@ -288,8 +287,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Website hoeft niet 1 op 1 te zijn met de originele website, werk alleen uit wat ik nuttig vind
   - punt 2 Surface plane hoeft niet al te ingewikkelde dingen te zijn, het kunnen ook kleine verbeteringen zijn
-  - nog een punt
-  - ...
+  - punt 3 Een div mag gebruikt worden als het echt niet anders kan
+  - punt 4 Het is me gelukt om een werkend hamburger menu te krijgen
 
 </details>
 
@@ -332,7 +331,12 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Nb. Vermeld de bronnen ook in je code.
 
   1. bron 1: foto's van de website (https://www.minecraft.net/en-us)
-  2. bron 2: Logo (https://www.zenbusiness.com/blog/minecraft-logo/)
-  3. ...
+  2. bron 2: logo (https://www.zenbusiness.com/blog/minecraft-logo/)
+  3. bron 3: visually hidden class (Thomas en Ivo)
+  4. bron 4: vollebreedte class (positioneren codepen)
+  5. bron 5: specifieke gebruik van grid (ChatGPT, Prompt: Hoe krijg ik één plaatje boven en twee naast elkaar beneden?)
+  6. bron 6: social media iconen (https://www.freepik.com/free-photos-vectors/social-media-icons-2024)
+  7. bron 7: zoek icoon voor header (https://www.shareicon.net/explore-find-bit-glass-search-magnifying-glass-zoom-loupe-research-magnifier-reading-92867)
+  8. bron 8: x icon voor header (https://www.pixilart.com/art/random-pixel-red-cross-a5469ca914041a3)
 
 </details>
