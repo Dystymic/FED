@@ -189,9 +189,9 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 1<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  hier dit ging goed & dit was lastig (neem ook screenshots op van delen van je website en code)
   Ik kreeg te horen dat ik goed op weg was, maar ik vind het wel nog lastig om een nette html structuur aan te houden. Ik kreeg als suggestie om meer met   
   sections en articles te werken zodat mijn html structuur wat netter word.
+  <img src="readme-images/voortgang1.png" width="375px" alt="screenshot van sections"
 
   ### Agenda voor meeting
   samen met je groepje opstellen
@@ -200,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | ...            | ...                | ...          | ...              |
+  | Hoe maak je een dropdown menu?            |                 | ...          | ...              |
 
 
   ### Verslag van meeting
@@ -280,7 +280,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Hoe maak je een hamburger menu? | Hoe uitgebreid moet de README uitgetypt zijn? | Waarom heeft dit plaatje een grijsvlak? | ...              |
+  | Hoe maak je een hamburger menu? | Hoe uitgebreid moet de README uitgetypt zijn? | Waarom heeft dit plaatje een grijsvlak? | Mag je een div gebruiken als een section geen h2 heeft?              |
 
 
   ### Verslag van meeting
