@@ -336,6 +336,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   4. bron 4: vollebreedte class (positioneren codepen)
   5. bron 5: specifieke gebruik van grid (ChatGPT, Prompt: Hoe krijg ik één plaatje boven en twee naast elkaar beneden?)
   6. bron 6: social media iconen (https://www.freepik.com/free-photos-vectors/social-media-icons-2024)
-  7. bron 7: zoek icoon (https://www.shareicon.net/explore-find-bit-glass-search-magnifying-glass-zoom-loupe-research-magnifier-reading-92867)
+  7. bron 7: zoek icoon voor header (https://www.shareicon.net/explore-find-bit-glass-search-magnifying-glass-zoom-loupe-research-magnifier-reading-92867)
+  8. bron 8: x icon voor header (https://www.pixilart.com/art/random-pixel-red-cross-a5469ca914041a3)
 
 </details>
