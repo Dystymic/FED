@@ -200,7 +200,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   | ---            | ---                | ---          | ---              |
   | dit bespreken  | en dit             | en ik dit    | en dan ik dat    |
   | en dat ook nog | dit als er tijd is | nog een punt | dit wil ik zeker |
-  | Hoe maak je een dropdown menu?            |                 | ...          | ...              |
+  | Hoe maak je een dropdown menu?            | Is mijn html structuur overzichtelijk?                | Hoeveel classes mag je gebruiken?          | Wat is een goed voorbeeld van Surface Plane?              |
 
 
   ### Verslag van meeting
@@ -208,7 +208,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Details en summary tags gebruiken voor dropdown menu's
   - punt 2 Surface plane suggestie: De live wallpaper die op de tweede pagina staat interactief maken door bepaalde elementen op de wallpaper klikbaar te maken
-  - nog een punt
+  - punt 3 Niet meer dan één footer hebben
   - ...
 
 </details>
@@ -241,7 +241,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   - punt 1 Goed nadenken over wat mijn 5 surface plane elementen worden
   - punt 2 Readme optijd aanvullen voordat ik alles vergeten ben
-  - nog een punt Suggestie voor surface plane: Reduce Motion
+  - punt 3 Suggestie voor surface plane: Reduce Motion
 - ...
 
 </details>
@@ -333,6 +333,8 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   1. bron 1: foto's van de website (https://www.minecraft.net/en-us)
   2. bron 2: Logo (https://www.zenbusiness.com/blog/minecraft-logo/)
-  3. ...
+  3. bron 3: Visually hidden class (Thomas en Ivo)
+  4. bron 4: vollebreedte class (positioneren codepen)
+  5. bron 5: specifieke gebruik van grid (ChatGPT, Prompt: Hoe krijg ik één plaatje boven en twee naast elkaar beneden?)
 
 </details>
