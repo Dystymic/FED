@@ -5,7 +5,7 @@
 	<meta charset="UTF-8">
 	<meta name="Javier Renfurm" content="Javier">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>FED eindopdracht</title>
+	<title>About Minecraft page</title>
 	<link href="styling/style.css" rel="stylesheet">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
 	<link rel="preconnect" href="https://fonts.googleapis.com">
@@ -37,54 +37,83 @@
 		<!-- Section 1 -->
 		<section>
 			<h2>PLATFORMS + FEATURES</h2>
-			<article>
-				<p>Buy Minecraft: Java & Bedrock Edition* and get both versions of the game for the price of one. 
+			<!-- Bron: Codepen van ilker -->
+			<div class="tabContainer">
+				<div class="buttonContainer">
+					<button onclick="showPanel(0)">Platforms</button>
+					<button onclick="showPanel(1)">Features</button>
+				</div>
+				<div class="tabPanel">Buy Minecraft: Java & Bedrock Edition* and get both versions of the game for the price of one. 
 					You can easily switch between Java and Bedrock Edition using the unified launcher and cross-play with
-					any current version of Minecraft, including consoles and mobile.</p>
-				<p>*macOS and Linux are compatible with Minecraft: Java Edition only.</p>
-			</article>
-			<ul>
-				<li><a href="#">WINDOWS/MAC/LINUX</a></li>
-				<li><a href="#">NINTENDO</a></li>
-				<li><a href="#">CHROMEBOOK</a></li>
-				<li><a href="#">XBOX</a></li>
-				<li><a href="#">AMAZON FIRE</a></li>
-				<li><a href="#">IOS</a></li>
-				<li><a href="#">PLAYSTATION</a></li>
-				<li><a href="#">ANDROID</a></li>
-			</ul>
+					any current version of Minecraft, including consoles and mobile. *macOS and Linux are compatible with Minecraft: Java Edition only.
+					<ul>
+						<li><a href="#">WINDOWS/MAC/LINUX</a></li>
+						<li><a href="#">NINTENDO</a></li>
+						<li><a href="#">CHROMEBOOK</a></li>
+						<li><a href="#">XBOX</a></li>
+						<li><a href="#">AMAZON FIRE</a></li>
+						<li><a href="#">IOS</a></li>
+						<li><a href="#">PLAYSTATION</a></li>
+						<li><a href="#">ANDROID</a></li>
+					</ul>
+				</div>
+				<div class="tabPanel">Compare the key features of Minecraft Bedrock Edition and Java Edition.
+					<ul>
+						<li><a href="#">Cross-Platform Compatibility</a></li>
+						<li><a href="#">Split screen multiplayer (online multiplayer requires subscription sold separately)</a></li>
+						<li><a href="#">Controller/touch support</a></li>
+						<li><a href="#">Minecraft Marketplace</a></li>
+						<li><a href="#">Marketplace Pass</a></li>
+						<li><a href="#">Downloadable Content (DLC)</a></li>
+						<li><a href="#">Mods</a></li>
+						<li><a href="#">Official featured multiplayer servers (online multiplayer requires subscription sold separately)</a></li>
+						<li><a href="#">Realms</a></li>
+						<li><a href="#">Realms Plus</a></li>
+						<li><a href="#">Host your own server</a></li>
+						<li><a href="#">Join player-hosted multiplayer servers</a></li>
+						<li><a href="#">Achievements/Trophies</a></li>
+						<li><a href="#">LAN or Wifi Multiplayer</a></li>
+						<li><a href="#">Parental Controls with Xbox Live or Microsoft Accounts</a></li>
+						<li><a href="#">Ray Tracing</a></li>
+					</ul>
+				</div>
+			</div>
 		</section>
 		<!-- Section 2 -->
-		<section>
+		<!-- Bron: ChatGPT, Prompt: Hoe maak ik van deze section een carrousel? -->
+		<section class="carousel">
 			<h2>DISCOVER MINECRAFT</h2>
-            <p>Build anything you can imagine, uncover eerie mysteries, and survive the night in the ultimate sandbox game.
-                In Minecraft, every playthrough is different, and unforgettable adventures await behind every corner.
-                Explore and craft your way through an infinite world that's yours to shape, one block at a time.</p>
-            <img src="images/build-almost-anything.jpg" alt="Image">
-		</section>
+			<p>Build anything you can imagine, uncover eerie mysteries, and survive the night in the ultimate sandbox game.
+				In Minecraft, every playthrough is different, and unforgettable adventures await behind every corner.
+				Explore and craft your way through an infinite world that's yours to shape, one block at a time.
+			</p>
+			<ul class="carousel-items">
+				<li><img src="images/build-almost-anything.jpg" alt="Build anything"></li>
+				<li><img src="images/explore.jpg" alt="Explore"></li>
+				<li><img src="images/survive.jpg" alt="Survive"></li>
+				<li><img src="images/playtogether.jpg" alt="Play together"></li>
+				<li><img src="images/experience.jpg" alt="Experience"></li>
+			</ul>
+			<button class="carousel-button previous" aria-label="Previous">&lt;</button>
+			<button class="carousel-button next" aria-label="Next">&gt;</button>
+		</section>		
 		<!-- Section 3 -->
 		<section>
 		    <h2>HOW IT WORKS</h2>
-            <img src="images/gather-resources.jpg" alt="Image">
+            <img class="bounce" src="images/gather-resources.jpg" alt="Image">
             <h3>Gather Resources</h3>
             <p>The typical Minecraft journey starts with punching a tree to gather wood. The rest is up to you, 
                 whether you mine for precious ores or seek out rare materials. Just make sure to stock up on food!</p>
-            <img src="images/survive-the-night.jpg" alt="Image">
+            <img class="bounce" src="images/survive-the-night.jpg" alt="Image">
             <h3>Survive the Night</h3>
             <p>When the sun goes down, hostile mobs abound. Will you face them or sleep through the night? 
                 And remember: it's always dark underground...</p>
-            <img src="images/build-amazing-things.jpg" alt="Image">
+			<img class="bounce" src="images/build-amazing-things.jpg" alt="Image">
             <h3>Build Amazing Things</h3>
             <p>Craft tools, build a humble shelter, or engineer your base with redstone. 
                 Can you build a base in the Nether? Only one way to find out.</p>
 		</section>
 		<!-- Section 4 -->
-		<section>
-            <img src="images/" alt="Image">
-			<h2>EXPLORE GAME MODES</h2>
-			<p>Shape your Minecraft experience, whether you want to create without restraints or literally fight to survive.</p>
-		</section>
-		<!-- Section 5 -->
 		<section>
 			<h2>PLAY WITH FRIENDS</h2>
 			<p>Survive and build with friends, join lively communities, or create your own private server with Realms!</p>
@@ -128,7 +157,7 @@
                 </details>
             </article>
 		</section>
-		<!-- Section 6 -->
+		<!-- Section 5 -->
 		<section>
 			<h2>EXPAND YOUR WORLD</h2>
             <p>Minecraft is always evolving thanks to our regular game updates as well as a growing catalog of creator content at Minecraft Marketplace. 
@@ -141,28 +170,28 @@
 				<a href="#">Start exploring</a>
             </article>
 		</section>
-		<!-- Section 7 -->
+		<!-- Section 6 -->
         <section>
 			<h2>WHAT'S NEW?</h2>
             <p>Discover the latest news, updates, and deep dives from the Minecraft universe!</p>
             <a href="">See all news</a>
 		</section>
-		<!-- Section 8 -->
+		<!-- Section 7 -->
 		<section>
 			<h2>FOLLOW MINECRAFT</h2>
-			<ul>
-				<li><a href=""><img src="images/" alt="YouTube"></a></li>
-				<li><a href=""><img src="images/" alt="Instagram"></a></li>	
-				<li><a href=""><img src="images/" alt="Facebook"></a></li>
-				<li><a href=""><img src="images/" alt="X"></a></li>
-				<li><a href=""><img src="images/" alt="Reddit"></a></li>
+			<ul class="bounce">
+				<li><a href="https://www.youtube.com/minecraft"><img src="images/youtube.png" alt="YouTube"></a></li>
+				<li><a href="https://www.instagram.com/minecraft/"><img src="images/instagram.png" alt="Instagram"></a></li>	
+				<li><a href="https://www.facebook.com/minecraft/"><img src="images/facebook.png" alt="Facebook"></a></li>
+				<li><a href="https://x.com/Minecraft"><img src="images/x.png" alt="X"></a></li>
+				<li><a href="https://www.reddit.com/r/Minecraft/"><img src="images/reddit.png" alt="Reddit"></a></li>
 			</ul>
 		</section>
 	</main>
 
 	<footer>
-		<!-- Section 1 -->
-		<section>
+		<!-- Div 2 -->
+		<div>
 			<ul>
 				<li><p>Games</p></li>
 				<li><a href="about.html">Minecraft</a></li>
@@ -190,9 +219,9 @@
 				<li><a href="#">Profile</a></li>
 				<li><a href="#">Redeem</a></li>
 			</ul>
-		</section>
-		<!-- Section 2 -->
-		<section>
+		</div>
+		<!-- Div 3 -->
+		<div>
 			<ul>
 				<li><img src="images/esrb.png" alt="ESRB Rating"></li>
 				<li><img src="images/mojang.png" alt="Mojang Logo"></li>
@@ -203,17 +232,14 @@
 				<li><a href="#">Minecraft Usage Guidelines</a></li>
 				<li><a href="#">Manage Consent</a></li>
 			</ul>
-		</section>
-		<!-- Section 3 -->
-		<section>
-			<ul>
-				<li><a href="#">Privacy and Cookies</a></li>
-				<li><a href="#">Terms of use</a></li>	
-				<li><a href="#">Trademarks</a></li>
-				<li><a href="#">About our ads</a></li>
-				<li><a href="#">© 2024 Microsoft</a></li>
-			</ul>
-		</section>
+		</div>
+		<ul>
+			<li><a href="#">Privacy and Cookies</a></li>
+			<li><a href="#">Terms of use</a></li>	
+			<li><a href="#">Trademarks</a></li>
+			<li><a href="#">About our ads</a></li>
+			<li><a href="#">© 2024 Microsoft</a></li>
+		</ul>
 	</footer>
 
 	<script defer src="scripts/script.js"></script>
