@@ -386,7 +386,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Het was me jammer genoeg niet gelukt om die live wallpaper na te maken met mijn eigen draai eraan. Ik zat er echt uren mee te stoeien, maar uiteindelijk had ik het moeten opgeven omdat ik anders niet verder kon gaan met mijn website.
 
-  <img src="readme-images/minecraft-pagina2.png" width="375px" alt="bummer">
+  <img src="readme-images/minecraft-pagina2.jpg" width="375px" alt="bummer">
 </details>
 
 
@@ -412,5 +412,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   8. bron 8: x icon voor header (https://www.pixilart.com/art/random-pixel-red-cross-a5469ca914041a3)
   9. Bron 9: tabs (Codepen van ilker)
   10. Bron 10: carrousel (ChatGPT, Prompt: Hoe maak ik van deze section een carrousel?)
+  11. Bron 11: favicon (https://gitlab.com/w973/minecraft-offline-uuid-generator)
 
 </details>
