@@ -269,7 +269,61 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   Keyboard
   - Nee
   - Nee
-    
+
+  Mobile and touch
+  - Ja
+  - Ja
+  - Ja
+  - Ja
+
+  Headings
+  - Ja
+  - Ja
+  - Ja
+  - Ja
+
+  Lists
+  - Ja
+
+  Images
+  - Ja
+  - Ja
+  - Nee
+  - Ja
+
+  Media
+  - Ja
+  - Ja
+  - Nee
+  - Nee
+
+  Controls
+  - Ja
+  - Ja
+  - Nee
+  - Ja
+  - Nee
+  - Nee
+
+  Appearance
+  - Ja
+  - Nee
+  - Nee
+  - Ja
+
+  Animation
+  - Ja
+  - Ja
+  - Ja
+
+  Color contrast
+  - Ja
+  - Ja
+  - Nee
+  - Ja
+  - Nee
+
+  
 
 </details>
 
