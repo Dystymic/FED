@@ -256,6 +256,20 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Content
+  - Ja
+  - Nee
+
+  Global code
+  - Ja
+  - Ja
+  - Ja
+  - ja
+
+  Keyboard
+  - Nee
+  - Nee
+    
 
 </details>
 
@@ -269,7 +283,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik kreeg te horen dat mijn site op de originele site begon te lijken en dat ik goed op weg was. Deze keer was ik goed voorbereid en had ik redelijk veel vragen    kunnen verzinnen om te stellen, maar wat ik de belangrijkste vraag vond was hoe je het best een hamburger menu kon maken. Ik had er de dag er voor een paar uur    meelopen stoeien en het wilde maar niet lukken.
+  Ik kreeg te horen dat mijn site op de originele site begon te lijken en dat ik goed op weg was. Deze keer was ik goed voorbereid en had ik redelijk veel vragen    kunnen verzinnen om te stellen, maar wat ik de belangrijkste vraag vond was hoe je het best een hamburger menu kon maken. Ik had er de dag er voor een paar uur    mee lopen stoeien en het wilde maar niet lukken.
 
 
   ### Agenda voor meeting
