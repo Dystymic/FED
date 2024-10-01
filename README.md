@@ -256,6 +256,74 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   ### Bevindingen
   Lijst met je bevindingen die in de test naar voren kwamen (geef ook aan wat er verbeterd is):
+  Content
+  - Ja
+  - Nee
+
+  Global code
+  - Ja
+  - Ja
+  - Ja
+  - ja
+
+  Keyboard
+  - Nee
+  - Nee
+
+  Mobile and touch
+  - Ja
+  - Ja
+  - Ja
+  - Ja
+
+  Headings
+  - Ja
+  - Ja
+  - Ja
+  - Ja
+
+  Lists
+  - Ja
+
+  Images
+  - Ja
+  - Ja
+  - Nee
+  - Ja
+
+  Media
+  - Ja
+  - Ja
+  - Nee
+  - Nee
+
+  Controls
+  - Ja
+  - Ja
+  - Nee
+  - Ja
+  - Nee
+  - Nee
+
+  Appearance
+  - Ja
+  - Nee
+  - Nee
+  - Ja
+
+  Animation
+  - Ja
+  - Ja
+  - Ja
+
+  Color contrast
+  - Ja
+  - Ja
+  - Nee
+  - Ja
+  - Nee
+
+  
 
 </details>
 
@@ -269,7 +337,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor 3<sup>e</sup> voortgang</summary>
 
   ### Stand van zaken
-  Ik kreeg te horen dat mijn site op de originele site begon te lijken en dat ik goed op weg was. Deze keer was ik goed voorbereid en had ik redelijk veel vragen    kunnen verzinnen om te stellen, maar wat ik de belangrijkste vraag vond was hoe je het best een hamburger menu kon maken. Ik had er de dag er voor een paar uur    meelopen stoeien en het wilde maar niet lukken.
+  Ik kreeg te horen dat mijn site op de originele site begon te lijken en dat ik goed op weg was. Deze keer was ik goed voorbereid en had ik redelijk veel vragen    kunnen verzinnen om te stellen, maar wat ik de belangrijkste vraag vond was hoe je het best een hamburger menu kon maken. Ik had er de dag er voor een paar uur    mee lopen stoeien en het wilde maar niet lukken.
 
 
   ### Agenda voor meeting
@@ -338,5 +406,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   6. bron 6: social media iconen (https://www.freepik.com/free-photos-vectors/social-media-icons-2024)
   7. bron 7: zoek icoon voor header (https://www.shareicon.net/explore-find-bit-glass-search-magnifying-glass-zoom-loupe-research-magnifier-reading-92867)
   8. bron 8: x icon voor header (https://www.pixilart.com/art/random-pixel-red-cross-a5469ca914041a3)
+  9. Bron 9: tabs (Codepen van ilker)
+  10. Bron 10: carrousel (ChatGPT, Prompt: Hoe maak ik van deze section een carrousel?)
 
 </details>
