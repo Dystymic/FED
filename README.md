@@ -370,19 +370,23 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   <summary>uitwerken voor eindgesprek</summary>
 
   ### Je uitkomst - karakteristiek screenshots:
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="uitomst opdracht 1">
+  Ik heb een site kunnen maken dat redelijk lijkt op het origineel en dat vind ik al een flinke prestatie want in de eerste week had ik het gevoel dat dit echt een onmogelijke klus zou zijn, maar uiteindelijk is het toch wel redelijk goed gelukt.
+  <img src="readme-images/uitkomst.png" width="375px" alt="uitomst opdracht 1">
 
 
   ### Dit ging goed/Heb ik geleerd: 
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="top">
+  Ik heb afgelopen weken veel nieuwe dingen geleerd als het gaat om coderen, ik weet nu hoe je een hamburgermenu moet maken, hoe je moet animeren met css en nog veel meer.
+  <img src="readme-images/trots.png" width="375px" alt="top">
 
 
   ### Dit was lastig/Is niet gelukt:
   Korte omschrijving met plaatjes
 
-  <img src="readme-images/dummy-plaatje.jpg" width="375px" alt="bummer">
+  Het was me jammer genoeg niet gelukt om die live wallpaper na te maken met mijn eigen draai eraan. Ik zat er echt uren mee te stoeien, maar uiteindelijk had ik het moeten opgeven omdat ik anders niet verder kon gaan met mijn website.
+
+  <img src="readme-images/minecraft-pagina2.png" width="375px" alt="bummer">
 </details>
 
 
