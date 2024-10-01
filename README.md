@@ -412,5 +412,6 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
   8. bron 8: x icon voor header (https://www.pixilart.com/art/random-pixel-red-cross-a5469ca914041a3)
   9. Bron 9: tabs (Codepen van ilker)
   10. Bron 10: carrousel (ChatGPT, Prompt: Hoe maak ik van deze section een carrousel?)
+  11. Bron 11: favicon (https://gitlab.com/w973/minecraft-offline-uuid-generator)
 
 </details>
