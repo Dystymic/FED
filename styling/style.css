@@ -180,6 +180,10 @@ a:focus {
 	text-decoration:underline;
 }
 
+summary:focus {
+	text-decoration:underline;
+}
+
 button {
 	background-color:transparent;
 	border:none;
@@ -273,12 +277,9 @@ li.knop {
 	margin-bottom:2em;
 }
 
-li.knop:hover {
-	background-color:var(--color-borderbottom1);
-}
-
 li.knop:active {
 	transform: translateY(2px);
+	background-color: var(--color-borderbottom1);
 }
 
 li.knop p {
