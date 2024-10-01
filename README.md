@@ -386,7 +386,7 @@ Nb. Door *open* toe te voegen aan een *details* element kun je deze standaard op
 
   Het was me jammer genoeg niet gelukt om die live wallpaper na te maken met mijn eigen draai eraan. Ik zat er echt uren mee te stoeien, maar uiteindelijk had ik het moeten opgeven omdat ik anders niet verder kon gaan met mijn website.
 
-  <img src="readme-images/minecraft-pagina2.png" width="375px" alt="bummer">
+  <img src="readme-images/minecraft-pagina2.jpg" width="375px" alt="bummer">
 </details>
 
 
